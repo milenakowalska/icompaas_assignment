@@ -1,4 +1,4 @@
-from flask import render_template, url_for, redirect, request, jsonify
+from flask import request, jsonify, url_for, render_template, redirect
 from app import app
 
 @app.route('/v1/sanitized/input', methods=['POST'])
