@@ -1,5 +1,5 @@
 from flask import request, jsonify, url_for, render_template, redirect
-from app import app
+from project import app
 
 @app.route('/v1/sanitized/input', methods=['POST'])
 def check_input():
